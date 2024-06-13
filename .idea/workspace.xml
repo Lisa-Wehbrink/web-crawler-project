@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02be75f1-1e19-422d-b835-b2c9f127c729" name="Changes" comment="" />
+    <list default="true" id="02be75f1-1e19-422d-b835-b2c9f127c729" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ktlint-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lisawehb/webcrawler/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lisawehb/webcrawler/model/UrlResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lisawehb/webcrawler/service/CrawlerService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lisawehb/webcrawler/service/HtmlParserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lisawehb/webcrawler/utils/CrawlerUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lisawehb/webcrawler/utils/ParserUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/SafeMockingTestClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/TestUtility.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/model/UrlResourceKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/service/CrawlerServiceKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/service/HtmlParserServiceKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/utils/CrawlerUtilsKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/utils/ParserUtilsKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +38,67 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-web-crawler-project" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-web-crawler-project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-web-crawler-project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-web-crawler-project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="distribution" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-web-crawler-project" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2hYZjhzgT0tScxHHP7X4RuAwNvi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,9 +109,165 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Kotlin"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lwehb\IdeaProjects\kotlin-web-crawler-project\src\main\kotlin\com\lisawehb\webcrawler\model" />
+      <recent name="C:\Users\lwehb\IdeaProjects\kotlin-web-crawler-project\src\main\kotlin\com\lisawehb\kotlin_web_crawler_project" />
+      <recent name="C:\Users\lwehb\IdeaProjects\kotlin-web-crawler-project\src\main\kotlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.kotlin-web-crawler-project-1.0-full.jar">
+    <configuration name="CrawlerServiceKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lisawehb.webcrawler.service.CrawlerServiceKtTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrawlerServiceKtTest.startCrawl should end crawl early if no links are returned" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lisawehb.webcrawler.service.CrawlerServiceKtTest.startCrawl should end crawl early if no links are returned&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CrawlerServiceKtTest.startCrawl should not initiate crawl if not links are retrieved at depth 0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lisawehb.webcrawler.service.CrawlerServiceKtTest.startCrawl should not initiate crawl if not links are retrieved at depth 0&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="HtmlParserServiceKtTest.retrievePage should throw httpStatusException if page returns anything but 200" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lisawehb.webcrawler.service.HtmlParserServiceKtTest.retrievePage should throw httpStatusException if page returns anything but 200&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'kotlin-web-crawler-project.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="kotlin-web-crawler-project-1.0-full.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/kotlin-web-crawler-project-1.0-full.jar" />
+      <option name="PROGRAM_PARAMETERS" value="http://monzo.com" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lisawehb.webcrawler.MainKt" />
+      <module name="kotlin-web-crawler-project.main" />
+      <option name="PROGRAM_PARAMETERS" value="https://octopus.energy" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'kotlin-web-crawler-project.test'" />
+        <item itemvalue="Gradle.CrawlerServiceKtTest" />
+        <item itemvalue="Gradle.CrawlerServiceKtTest.startCrawl should not initiate crawl if not links are retrieved at depth 0" />
+        <item itemvalue="Gradle.CrawlerServiceKtTest.startCrawl should end crawl early if no links are returned" />
+        <item itemvalue="Gradle.HtmlParserServiceKtTest.retrievePage should throw httpStatusException if page returns anything but 200" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,5 +278,53 @@
       <updated>1717773110804</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/SafeMockingTestClass.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/com/lisawehb/webcrawler/service/CrawlerServiceKtTest.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="crawledPages" />
+      </configuration>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="crawledPages" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kotlin_web_crawler_project$Tests_in__kotlin_web_crawler_project_test_.ic" NAME="Tests in 'kotlin-web-crawler-project.test' Coverage Results" MODIFIED="1718313542829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
