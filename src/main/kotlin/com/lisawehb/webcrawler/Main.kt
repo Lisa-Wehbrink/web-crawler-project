@@ -12,9 +12,14 @@ private const val MAX_DEPTH = 5
 fun main(args: Array<String>) {
     try {
         val url = URL(args.first())
-
         val origin = UrlResource(url = url, depth = 0)
-        val crawlerService = CrawlerService(origin, MAX_DEPTH)
+
+        var userMaxDepth: Int? = null
+        if (args.size == 2) {
+            userMaxDepth = args[1].toIntOrNull()
+        }
+
+        val crawlerService = CrawlerService(origin, userMaxDepth ?: MAX_DEPTH)
         runBlocking {
             crawlerService.startCrawl()
         }
